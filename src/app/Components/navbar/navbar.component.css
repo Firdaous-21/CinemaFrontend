@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(191, 57, 57);
+    padding: 10px 20px;
+}
+/*rgb(22, 143, 191)*/
+.nav-item {
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+
+.nav-item:first-child {
+    margin-left: 0; 
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: bold; 
+}

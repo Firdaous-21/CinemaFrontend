@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+  margin: 0;
+}
+
+.log {
+  width: 450px; 
+  height: 450px;
+  padding: 20px;
+  border: 2px solid white;
+  background-color:white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.log img {
+  display: block;
+  margin: 0 auto;
+  width: 200px; 
+  height: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-5 {
+  margin-bottom: 10px;
+}
+
+.text-900 {
+  font-weight: 900;
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+  line-height: 1;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.mb-3 {
+  margin-bottom: 10px;
+}
+
+.text-600 {
+  font-weight: 600;
+}
+
+.line-height-3 {
+  line-height: 1;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.ml-2 {
+  margin-left: 10px;
+}
+
+.text-blue-500 {
+  color: #3b82f6;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.mr-2 {
+  margin-right: 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.pButton {
+  padding: 10px; 
+  font-size: 1rem; 
+  border: none;
+  height: auto;
+  width: 95%;
+  border-radius: 5px;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.pInputText {
+  padding: 10px; 
+  border-radius: 5px;
+  border: 1px solid #d1d5db; 
+  width: 90%;
+  margin-bottom: 10px;
+}
+
